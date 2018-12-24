@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.dots_bottom .slick-dots {
+    top: 615px;
+    height: 0; }
+
+@media only screen and (max-width: 480px) {
+.dots_bottom .slick-dots {
+    top: 645px;
+    height: 0; }
+}

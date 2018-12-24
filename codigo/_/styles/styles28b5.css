@@ -1,0 +1,68 @@
+/*Hoja de estilos dinamica creada el 2017-11-02 16:42*/
+
+
+/*2017-11-02 17:09*/
+.c_slider_home .src_return:nth-child(2) p { display:none !important}
+.c_slider_home .src_return:nth-child(2) h3 { display:none !important}
+.c_slider_home .src_return:nth-child(2) h2 { display:none !important}
+
+.c_slider_home .src_return:nth-child(3) p { display:none !important}
+.c_slider_home .src_return:nth-child(3) h3 { display:none !important}
+.c_slider_home .src_return:nth-child(3) h2 { display:none !important}
+
+.c_slider_home .src_return:nth-child(4) p { display:none !important}
+.c_slider_home .src_return:nth-child(4) h3 { display:none !important}
+.c_slider_home .src_return:nth-child(4) h2 { display:none !important}
+
+.c_slider_home .src_return:nth-child(5) p { display:none !important}
+.c_slider_home .src_return:nth-child(5) h3 { display:none !important}
+.c_slider_home .src_return:nth-child(5) h2 { display:none !important}
+
+.c_slider_home .src_return:nth-child(6) p { display:none !important}
+.c_slider_home .src_return:nth-child(6) h3 { display:none !important}
+.c_slider_home .src_return:nth-child(6) h2 { display:none !important}
+/*2017-11-07 13:42*/
+
+/*Ocutar producto de ROA*/
+/*.left.list_menu_prod.f20 ul li:nth-child(1) { display:none !important}*/
+/*.pro-0 { display:none !important;}*/
+/*.pro-1 { display:block}*/
+/*.c_buscador select option:nth-child(16) { display:none !important;}*/
+/*#Ocultar producto de ROA*/
+
+/*-------------Estilos Parbolizado*/
+
+.btn-grey { background:#763613 !important;}
+.c_newsletter .c_form_news input {background:#dfad4a !important;}
+.c_newsletter div h3 { color: #763613 !important;}
+.c_social_home {background:#fbca0e;background:-moz-radial-gradient(center, ellipse cover, #fbca0e 0%, #e59023 100%);background:-webkit-radial-gradient(center, ellipse cover, #fbca0e 0%, #e59023 100%);background:radial-gradient(ellipse at center, #fbca0e 0%, #e59023 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbca0e', endColorstr='#e59023',GradientType=1 )}
+.c_social_home h4 { color: #763613 !important;}
+footer .c_info_footer a { color:#ffffff !important;}
+.c_menu a:hover { background-color:#e29020 !important;}
+.items_header1 a:hover { color:#fce041 !important;}
+.info_footer h6 { color:#ffffff !important;}
+footer { background-image:URL(../editor/images/footertextura.jpg) !important; background-position:bottom !important;}
+.c_social_home a { background-color:#f8ae00 !important;}
+
+
+/*-------------#Estilos Parbolizado*/
+/*2017-11-14 14:43*/
+/*2017-11-14 14:49*/
+/*2017-11-14 14:49*/
+/*2017-11-14 14:51*/
+/*2017-11-14 14:51*/
+/*2017-11-14 15:30*/
+/*2017-11-14 15:32*/
+/*2017-11-14 15:32*/
+/*2017-11-15 17:33*/
+/*2017-11-15 17:35*/
+/*2017-11-15 17:36*/
+/*2017-11-15 17:38*/
+/*2017-11-15 17:39*/
+/*2017-11-15 17:39*/
+/*2017-11-27 08:25*/
+/*2017-11-27 08:30*/
+/*2017-11-27 08:57*/
+/*2017-11-28 13:57*/
+/*2017-11-28 13:58*/
+/*2017-11-28 14:43*/
