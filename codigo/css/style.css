@@ -1220,3 +1220,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits a {
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
