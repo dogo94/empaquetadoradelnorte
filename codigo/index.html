@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Empaquetadora del Norte - Inicio</title>
   <meta property="og:title" content="Empaquetadora del Norte - Inicio" />
@@ -50,6 +50,7 @@
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
+
 
 
   <script type="text/javascript">
@@ -102,8 +103,6 @@
 
   </script>
   <!--#Customscripts-->
-
-
 </head>
 
 <body id="body">
@@ -122,62 +121,101 @@
       <div class="items_header1 f12 clearfix">
         <div class="wrapper">
           <div class="right">
-            <a href="#modal1" class="ico_contact bor" data-toggle="modal">CONTÁCTENOS</a>
+            <div class="container">
+              <a href="#modal1" class="ico_contact bor" data-toggle="modal">CONTÁCTENOS</a>
 
-            <div class="modal fade" id="modal1">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h2 class="modal-title">encabezado</h2>
+              <!-- Creando Modal -->
+              <div class="modal fade" id="modal1">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="core85 f30 cred">CONTACTO</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"> &times;
+                      </button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row contact-info">
+                        <div class="col-md-5">
+                          <i class="ion-ios-location-outline"></i>
+                          <i class="core85 f15">&nbsp&nbsp Cúcuta (Norte de Santander)</i>
+                          <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CALLE 8N 3A-90 ZONA INDUSTRIAL</p>
+                        
+                        <br>
+                        
+                          <i class="ion-ios-telephone-outline"></i>
+                          <i class="core85 f15">&nbsp&nbsp Telefono</i>
+                          <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp (+57)(7)5792557</p>
+                        
+                        <br>
+                        
+                          <i class="ion-ios-email-outline"></i>
+                          <i class="core85 f15">&nbsp&nbsp Email</i>
+                          <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp info@empaquetadoradelnorte.com </p>
+                        </div>
+                        <div class="col-md-5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7039339400717!2d-72.51917668571653!3d7.821128994364225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6647e32c6fa039%3A0x2fc281113c8c8f22!2sDasscol!5e0!3m2!1ses-419!2sco!4v1547156427285"
+                          width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                      </div>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <a href="javascript:void(0);" class="ico_search">BUSCAR</a>
           </div>
+
+          <!-- jQuery first, then Bootstrap JS. -->
+          <script src="js/jquery.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+
+
         </div>
       </div>
-      <div class="items_header2 clearfix f15">
-        <div class="wrapper cont_search">
-          <div class="right">
-            <form action="#" method="get" id="formBusqueda">
-              <input type="text" placeholder="Ingresa tu busqueda aquí." name="busq" autocomplete="off">
-            </form>
-          </div>
+    </div>
+    <div class="items_header2 clearfix f15">
+      <div class="wrapper cont_search">
+        <div class="right">
+          <form action="#" method="get" id="formBusqueda">
+            <input type="text" placeholder="Ingresa tu busqueda aquí." name="busq" autocomplete="off">
+          </form>
         </div>
       </div>
-      <div class="c_menu align-center clearfix">
-        <a href="javascript:void(0);" class="l_menu"></a>
-        <nav class="c_menu_div">
-          <ul class="menu">
-            <li>
-              <a href="../codigo/index.html" class="lnkMobile">
-                <i class="fas fa-home"></i>&nbsp&nbspINICIO</a>
-            </li>
-            <li class="l_1">
-              <a href="#" title="">
-                <i class="fas fa-users"></i>&nbsp&nbspQUIÉNES SOMOS</a>
+    </div>
+    <div class="c_menu align-center clearfix">
+      <a href="javascript:void(0);" class="l_menu"></a>
+      <nav class="c_menu_div">
+        <ul class="menu">
+          <li>
+            <a href="../codigo/index.html" class="lnkMobile">
+              <i class="fas fa-home"></i>&nbsp&nbspINICIO</a>
+          </li>
+          <li class="l_1">
+            <a href="#" title="">
+              <i class="fas fa-users"></i>&nbsp&nbspQUIÉNES SOMOS</a>
 
-            </li>
-            <li>
-              <a href="javascript:void(0);" class="linkPro lnkMobile">
-                <i class="fas fa-box-open"></i>&nbsp&nbspPRODUCTOS</a>
-            </li>
-            <li>
-              <a href="#" class="lnkMobile">
-                <i class="fas fa-cogs"></i>&nbsp&nbspPROCESOS</a>
-            </li>
-            <li>
-              <a href="#" title="" class="lnkMobile">
-                <i class="fas fa-carrot"></i>&nbsp&nbspCOCINA CON NOSOTROS</a>
-            </li>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="linkPro lnkMobile">
+              <i class="fas fa-box-open"></i>&nbsp&nbspPRODUCTOS</a>
+          </li>
+          <li>
+            <a href="#" class="lnkMobile">
+              <i class="fas fa-cogs"></i>&nbsp&nbspPROCESOS</a>
+          </li>
+          <li>
+            <a href="#" title="" class="lnkMobile">
+              <i class="fas fa-carrot"></i>&nbsp&nbspCOCINA CON NOSOTROS</a>
+          </li>
 
 
 
-          </ul>
-        </nav>
-      </div>
+        </ul>
+      </nav>
+    </div>
     </div>
 
 
@@ -377,7 +415,7 @@ Nuestra empresa se encarga de empacar y comercializar alimentos con las mejores 
             <div class="left align-right ">
               <div class="table" style="background-color:#970808">
                 <div class="table-cell c_text_list_nov p-right">
-                  <h3 class="core85 f30 cyellow">EMPAQUETADORA DEL NORTE</h3>
+                  <h3 class="core85 f30 cwhite">EMPAQUETADORA DEL NORTE</h3>
                   <p align="justify">Somos la mejor empaquetadora de la región, contamos con el mejor personal y con la
                     mejor tecnologia, para
                     ofrecerte productos de la mejor calidad</p>
@@ -497,7 +535,7 @@ Nuestra empresa se encarga de empacar y comercializar alimentos con las mejores 
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <h3>DIRECCION</h3>
+              <h3>DIRECCIÓN</h3>
               <address>CALLE 8N 3A-90 ZONA INDUSTRIAL </address>
             </div>
           </div>
