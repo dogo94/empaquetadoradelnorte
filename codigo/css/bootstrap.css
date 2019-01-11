@@ -3338,14 +3338,26 @@ tbody.collapse.in {
 
 .card {
   position: relative;
-  display: block;
-  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fff;
-  border-radius: 0.25rem;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; }
 
 .card-block {
-  padding: 1.25rem; }
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1.25rem;
+ }
   .card-block::after {
     content: "";
     display: table;
@@ -3465,6 +3477,9 @@ tbody.collapse.in {
   background-color: transparent;
   border-color: #d9534f; }
 
+  .card-inverse {
+    color: rgba(255, 255, 255, 0.65);
+  }
 .card-inverse .card-header,
 .card-inverse .card-footer {
   border-color: rgba(255, 255, 255, 0.2); }
@@ -5411,6 +5426,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
 .text-capitalize {
   text-transform: capitalize !important; }
+
+  .text-center {
+    text-align: center !important;
+  }
 
 .font-weight-normal {
   font-weight: normal; }
