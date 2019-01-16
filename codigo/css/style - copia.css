@@ -860,7 +860,8 @@ a:hover {
 ======================================*/
 
 .intro {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   position: relative;
   color: #ffffff;
 }
